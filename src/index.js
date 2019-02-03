@@ -1,9 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-const title = "My Minimal React sachen Webpack Babel Setup";
-
-ReactDOM.render(
-    <div style={{ backgroundColor: "blue" }}>{title}</div>,
-    document.getElementById("app")
-);
+ReactDOM.render(<App />, document.getElementById("app"));
